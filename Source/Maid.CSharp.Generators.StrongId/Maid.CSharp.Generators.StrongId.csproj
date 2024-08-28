@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	<TargetFramework>netstandard2.0</TargetFramework>
+	<LangVersion>latest</LangVersion>
+	<EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+	<IsRoslynComponent>true</IsRoslynComponent>
+  </PropertyGroup>
+
+  <PropertyGroup>
+	<IncludeBuildOutput>false</IncludeBuildOutput> <!-- Do not include the generator as a lib dependency -->
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.9.2" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" PrivateAssets="all" />
+  </ItemGroup>
+
+	<ItemGroup>
+	  <None Include="$(OutputPath)\Maid.CSharp.Generators.Utils.dll" PackagePath="analyzers/dotnet/cs" Pack="true" Visible="false" />
+	  <None Include="$(OutputPath)\Maid.CSharp.Generators.StrongId.dll" PackagePath="analyzers/dotnet/cs" Pack="true" Visible="false" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Maid.CSharp.Generators.Utils\Maid.CSharp.Generators.Utils.csproj" OutputItemType="Analyzer"/>
+	</ItemGroup>
+</Project>

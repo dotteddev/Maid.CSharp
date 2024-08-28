@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maid.CSharp.Generators.StrongId", "Maid.CSharp.Generators.StrongId\Maid.CSharp.Generators.StrongId.csproj", "{B1773197-8A2A-47CD-BD13-CAD03DE1E0F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maid.CSharp.Generators.Utils", "Maid.CSharp.Generators.Utils\Maid.CSharp.Generators.Utils.csproj", "{A503E896-C13F-4FE8-B55C-A98EEE5E4AE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1773197-8A2A-47CD-BD13-CAD03DE1E0F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1773197-8A2A-47CD-BD13-CAD03DE1E0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1773197-8A2A-47CD-BD13-CAD03DE1E0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1773197-8A2A-47CD-BD13-CAD03DE1E0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A503E896-C13F-4FE8-B55C-A98EEE5E4AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A503E896-C13F-4FE8-B55C-A98EEE5E4AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A503E896-C13F-4FE8-B55C-A98EEE5E4AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A503E896-C13F-4FE8-B55C-A98EEE5E4AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96F088B4-C5FF-441A-BF30-C9396F0E323C}
+	EndGlobalSection
+EndGlobal
